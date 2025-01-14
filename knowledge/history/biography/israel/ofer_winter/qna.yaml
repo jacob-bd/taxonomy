@@ -1,0 +1,70 @@
+created_by: jacob-bd
+version: 3
+domain: biography
+document_outline: Knowledge contribution about Ofer Winter, a retired IDF officer
+seed_examples:
+  - context: >-
+      Ofer Winter is a retired IDF officer with the rank of Brigadier General,
+      born on February 3, 1971. He served in various command positions including
+      commander of the 98th Paratroopers Division, military secretary to the
+      Israeli Minister of Defense, and commander of the Givati Brigade.
+    questions_and_answers:
+      - question: What is Ofer Winter's military rank?
+        answer: Brigadier General
+      - question: When was Ofer Winter born?
+        answer: February 3, 1971
+      - question: What are some of Ofer Winter's notable command positions?
+        answer: Commander of 98th Paratroopers Division, military secretary to the Israeli Minister of Defense, and commander of the Givati Brigade
+  - context: >-
+      Winter was born in Rekhasim and grew up in Kiryat Ata. He is the eldest of
+      four siblings. He received his combat heritage from his father David, who
+      fought in the Yom Kippur War. Winter studied at the Or Etzion Military
+      Boarding School and Bnei David pre-military academy.
+    questions_and_answers:
+      - question: Where was Ofer Winter born?
+        answer: Rekhasim
+      - question: Where did Ofer Winter grow up?
+        answer: Kiryat Ata
+      - question: What is Ofer Winter's family background?
+        answer: He is the eldest of four siblings and his father David fought in the Yom Kippur War
+  - context: >-
+      Winter enlisted in the IDF in November 1990 and served in various special
+      forces units including Sayeret Matkal and Maglan. He participated in
+      operations like Operation Grapes of Wrath and Operation Cast Lead. He
+      commanded the Givati Brigade during Operation Protective Edge in 2014.
+    questions_and_answers:
+      - question: When did Ofer Winter enlist in the IDF?
+        answer: November 1990
+      - question: What special forces units did Ofer Winter serve in?
+        answer: Sayeret Matkal and Maglan
+      - question: What major operations did Ofer Winter participate in?
+        answer: Operation Grapes of Wrath and Operation Cast Lead
+  - context: >-
+      As commander of the Givati Brigade during Operation Protective Edge, Winter
+      wrote a famous "Commander's Page for Battle" that sparked discussions about
+      religion in the military. His brigade played a central role in the Battle
+      of Rafah and was awarded the MAFAT Award for Creative Thinking.
+    questions_and_answers:
+      - question: What was significant about Ofer Winter's "Commander's Page for Battle"?
+        answer: It sparked discussions about religion in the military
+      - question: What award did Ofer Winter receive for his work during Operation Protective Edge?
+        answer: MAFAT Award for Creative Thinking
+      - question: What battle did Ofer Winter's brigade play a central role in?
+        answer: Battle of Rafah
+  - context: >-
+      Winter served as Chief of Staff of the Central Command and Military
+      Secretary to the Minister of Defense. He retired from active service in
+      "2024" after 34 years in the IDF. On October 7, 2023, he participated in
+      combat against Hamas terrorists during their surprise attack.
+    questions_and_answers:
+      - question: What were Ofer Winter's final roles in the IDF?
+        answer: Chief of Staff of the Central Command and Military Secretary to the Minister of Defense
+      - question: When did Ofer Winter retire from the IDF?
+        answer: "2024"
+      - question: What was Ofer Winter's involvement in the October 7, 2023 attack?
+        answer: He participated in combat against Hamas terrorists during their surprise attack
+document:
+  repo: https://github.com/jacob-bd/taxonomy.git
+  commit: f8c9621f2c80449093a790a8c7713bfbc1447bcb
+  patterns:
+    - ofer-winter/Ofer_Winter.md
